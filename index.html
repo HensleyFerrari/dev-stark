@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/app.css">
     <title>Stark Dev</title>
 </head>
 
@@ -27,17 +27,35 @@
 
     </nav>
 
-    <div class="starkdev">
-        <img src="/assets/img/starkDev.png" alt="">
-        <div class="texto-sobre">
-            <h1>Grupo de desenvolvedores<br/>Somos <span style="color: rgb(0, 221, 255);">Stark</span></h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies euismod congue. Fusce sit amet ipsum at risus maximus sagittis. Donec id orci ut turpis viverra dignissim id quis sem. Nam eget lacus malesuada, scelerisque justo sit amet, cursus turpis. Donec a efficitur ex. Maecenas nunc sapien, semper sed iaculis sed, pharetra a magna. Curabitur a enim euismod, dignissim nisi eu, semper dui. Etiam non risus elit. Proin a lorem ut risus cursus hendrerit ac sed lorem.</p>
-            <button>Veja Mais</button>
+    <!-- TODO Arrumar a .starkdev para não ir além do seu view -->
+    <div class="starkdev grid grid-cols-2">
+        <div class="texto-sobre p-20 pr-0">
+            <h1 class="text-5xl">Grupo de desenvolvedores<br>Somos <span style="color: rgb(0, 221, 255);">Stark</span></h1>
+            <p class="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies euismod
+                congue. Fusce sit
+                amet ipsum at risus maximus sagittis. Donec id orci ut turpis viverra dignissim id quis sem. Nam eget
+                lacus malesuada, scelerisque justo sit amet, cursus turpis. Donec a efficitur ex. Maecenas nunc sapien,
+                semper sed iaculis sed, pharetra a magna. Curabitur a enim euismod, dignissim nisi eu, semper dui. Etiam
+                non risus elit. Proin a lorem ut risus cursus hendrerit ac sed lorem.</p>
+            <button class="font-bold py-2 px-4 rounded-full text-white hover:bg-blue-500">Veja Mais</button>
         </div>
+        <!-- <div>
+            <img src="/assets/img/starkDev.png" class="object-contain" alt="">
+        </div> -->
     </div>
 
 
-    <script src='/assets/js/index.js'></script>
+    <section class="bg-gradient-to-r from-purple-500 to-pink-500 p-10 text-white">
+        <h1>Teste</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis reprehenderit laudantium quidem
+            accusantium possimus placeat enim nostrum nihil nemo similique cum eius recusandae voluptas, commodi ipsam
+            asperiores? In, eaque deserunt?
+        </p>
+    </section>
+
+
+    <script src='assets/js/index.js'></script>
 </body>
 
 </html>
